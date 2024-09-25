@@ -1,0 +1,71 @@
+@use "variables";
+
+
+
+
+.title{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+    &__container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1110px;
+    }
+
+    &__header-container{
+        display: flex;
+        flex-direction: column;
+        
+        .title__small-header{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 28px;
+            letter-spacing: -0.423077px;
+            color: #4A4FF2;
+            margin: 0;
+        }
+        
+        .title__main-header{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 60px;
+            color: variables.$primary-color;
+            max-width: 635px;
+            margin: 0;
+        }
+        
+    }
+    .title__quote{
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color:variables.$primary-color;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    position: relative;
+    margin: 0;
+    &:before{
+        content: "";
+        position: absolute;
+        top:-9px;
+        left: 0;
+        width: 20%;
+        height: 2px;
+        background-color: #979797;
+
+    }
+    }
+
+    .purple-text{
+        color: #4A4FF2;
+    }
+}

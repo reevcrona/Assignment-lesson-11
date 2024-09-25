@@ -1,3 +1,8 @@
+.title__logo {
+  width: 90px;
+  height: 19.5px;
+}
+
 .nav {
   width: 100%;
   display: flex;
@@ -10,10 +15,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav__logo {
-  width: 90px;
-  height: 19.5px;
 }
 .nav__list {
   display: flex;
@@ -32,6 +33,66 @@
   line-height: 23px;
   letter-spacing: -0.346154px;
   margin-left: 29px;
+}
+
+.title {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.title__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+}
+.title__header-container {
+  display: flex;
+  flex-direction: column;
+}
+.title__header-container .title__small-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.423077px;
+  color: #4A4FF2;
+  margin: 0;
+}
+.title__header-container .title__main-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+  max-width: 635px;
+  margin: 0;
+}
+.title .title__quote {
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  position: relative;
+  margin: 0;
+}
+.title .title__quote:before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 20%;
+  height: 2px;
+  background-color: #979797;
+}
+.title .purple-text {
+  color: #4A4FF2;
 }
 
 body {
