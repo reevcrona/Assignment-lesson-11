@@ -1,0 +1,48 @@
+
+$common-max-width:1110px;
+$primary-color:#111111;
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    &__container{
+        width: 100%;
+        max-width: $common-max-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 90px;
+        height: 19.5px;
+    }
+    &__list{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        
+    }
+    &__li{
+        list-style: none;
+    }
+    &__link{
+        color:$primary-color;
+        text-decoration: none;
+        font-family: 'Mulish',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.346154px;
+        margin-left: 29px;
+    }
+}
+
+
+
+
+
+
+
