@@ -1,8 +1,10 @@
 @use "variables";
 @import "header";
 @import "title";
+@import "frame";
 
 
 body{
     font-family: variables.$main-font;
+   
 }
