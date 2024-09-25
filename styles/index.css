@@ -111,7 +111,7 @@ main {
   max-width: 1110px;
   display: grid;
   grid-template-rows: repeat(32, 1fr);
-  grid-template-columns: repeat(9, auto);
+  grid-template-columns: repeat(9, 1fr);
 }
 .frame .frame__img-one {
   grid-area: 1/1/7/4;
@@ -194,6 +194,38 @@ main {
   color: #111111;
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+.awards {
+  display: flex;
+  justify-content: center;
+  height: 55vh;
+}
+.awards__container {
+  width: 100%;
+  border-top: 1px solid #D8D8D8;
+  max-width: 1110px;
+  display: grid;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+}
+.awards .one {
+  grid-area: 2/1/2/3;
+}
+.awards .two {
+  grid-area: 2/4/2/4;
+}
+.awards .three {
+  grid-area: 2/7/2/7;
+}
+.awards .four {
+  grid-area: 3/7/3/8;
+  min-width: 190px;
+  margin: 0;
+}
+.awards .five {
+  grid-area: 2/-1/2/-1;
 }
 
 body {

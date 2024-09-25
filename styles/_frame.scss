@@ -12,7 +12,7 @@
         max-width: variables.$common-max-width;
         display: grid;
         grid-template-rows: repeat(32,1fr);
-        grid-template-columns: repeat(9,auto);   
+        grid-template-columns: repeat(9,1fr);   
     }
 .frame__img-one{
     grid-area: 1/1/7/4;

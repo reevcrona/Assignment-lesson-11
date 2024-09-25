@@ -1,0 +1,37 @@
+@use "variables";
+
+
+.awards{
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    
+    &__container{
+        width: 100%;
+        border-top: 1px solid #D8D8D8;
+        max-width:variables.$common-max-width;
+        display: grid;
+        grid-template-rows: repeat(16,1fr);
+        grid-template-columns: repeat(8,1fr);
+        align-items: center;
+    }
+
+.one{
+    grid-area: 2/1/2/3;
+}
+.two{
+    grid-area: 2/4/2/4;
+}
+.three{
+    grid-area: 2/7/2/7;
+}
+.four{
+    grid-area: 3/7/3/8;
+    min-width: 190px;
+    margin: 0;
+}
+.five{
+    grid-area: 2/-1/2/-1;
+}
+
+}
