@@ -26,12 +26,15 @@
 .nav__link {
   color: #111111;
   text-decoration: none;
-  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: -0.346154px;
   margin-left: 29px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
