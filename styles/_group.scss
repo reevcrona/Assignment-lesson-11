@@ -1,0 +1,51 @@
+@use "variables";
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__content{
+        width: 100%;
+        max-width: 1079px;
+        max-height: 106px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: variables.$primary-color;
+    width: 100%;
+    max-width: 635px;
+    margin: 0;
+    }
+
+
+    .group__list{
+        display: flex;
+        height: 100%;
+        min-height:106px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .group__li{
+        list-style: none;
+    }
+    .group__link{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color:variables.$primary-color;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+
+    }
+}
