@@ -123,6 +123,27 @@
 .frame .frame_img-five {
   grid-area: 7/4/13/7;
 }
+.frame .frame_img-six {
+  grid-area: 11/7/17/-1;
+}
+.frame .frame_img-seven {
+  grid-area: 14/4/22/7;
+}
+.frame .frame_img-eight {
+  grid-area: 16/1/23/4;
+}
+.frame .frame_img-nine {
+  grid-area: 18/7/26/-1;
+}
+.frame .frame_img-ten {
+  grid-area: 24/1/-1/4;
+}
+.frame .frame_img-eleven {
+  grid-area: 23/4/-1/7;
+}
+.frame .frame_img-twelve {
+  grid-area: 27/7/-1/-1;
+}
 
 body {
   font-family: "Mulish", sans-serif;
