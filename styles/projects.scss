@@ -1,1 +1,7 @@
+@use "variables";
 @import "header";
+@import "intro";
+
+body{
+    font-family: variables.$main-font;
+}
