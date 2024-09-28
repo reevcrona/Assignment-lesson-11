@@ -147,16 +147,32 @@
         margin: 0;
         align-self: start;
         justify-self: center;
-        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #111111;
     }
 
     .two-one{
         grid-area: 5/1/5/3;
         align-self: start;
+        margin: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #111111;
     }
     .two-two{
         grid-area: 5/5/5/7;
         align-self: start;
+        margin: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        color: #111111;
     }
     .three-four-two-container {
         grid-area: 5/7/7/10; 
@@ -168,10 +184,35 @@
 
        justify-self:center;
        align-self: start;
+       text-align: start;
        
+    }
+    .two-three{
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #111111;
+    }
+    .two-four{
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.6;
     }
     .two-five{
         grid-area: 5/11/5/-1;
+        margin: 0;
         align-self: start;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #111111;
     }
 }
