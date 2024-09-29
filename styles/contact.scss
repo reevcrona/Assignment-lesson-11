@@ -2,9 +2,11 @@
 @import "header";
 @import "form";
 @import "footer";
+@import "map";
 
 
 
 body{
     font-family: variables.$main-font;
+    min-height: 100vh;
 }
