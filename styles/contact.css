@@ -35,6 +35,16 @@
   margin-left: 29px;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form__container {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+}
+
 .footer {
   display: flex;
   justify-content: center;

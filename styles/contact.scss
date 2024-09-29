@@ -1,6 +1,9 @@
 @use "variables";
 @import "header";
+@import "form";
 @import "footer";
+
+
 
 body{
     font-family: variables.$main-font;
