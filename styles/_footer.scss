@@ -26,7 +26,7 @@
     font-size: 18px;
     line-height: 23px;
     letter-spacing: -0.346154px;
-    color: #111111;
+    color: variables.$primary-color;
     text-decoration: none;
 }
 .footer__list{
@@ -45,7 +45,7 @@
     grid-area: 1/6/1/6;
 }
 .footer__socials-link{
-    color: #111111;
+    color: variables.$primary-color;
     
 }
 .footer__socials-link > i:hover{
