@@ -83,6 +83,8 @@ main {
 .intro__container {
   width: 100%;
   max-width: 1110px;
+  height: 100%;
+  max-height: 381px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -201,14 +203,17 @@ main {
   grid-area: 1/6/1/6;
 }
 
-.footer_socials-link {
+.footer__socials-link {
   color: #111111;
+}
+
+.footer__socials-link > i:hover {
+  transform: scale(1.1);
 }
 
 .footer__socials-list > i {
   width: 15px;
   height: 15px;
-  color: #111111;
 }
 
 body {

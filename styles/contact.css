@@ -187,14 +187,17 @@ form > input {
   grid-area: 1/6/1/6;
 }
 
-.footer_socials-link {
+.footer__socials-link {
   color: #111111;
+}
+
+.footer__socials-link > i:hover {
+  transform: scale(1.1);
 }
 
 .footer__socials-list > i {
   width: 15px;
   height: 15px;
-  color: #111111;
 }
 
 .map {
